@@ -1,47 +1,40 @@
-body {
-	font-family: Arial;
-	margin: 0;
-	color: #7a1300;
-	background-image: url("https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSIcH3JbWInAxGggk_U4laKTJM4sfrp6Apqr27GbYELM3JmoK6g");
-	background-size: 100%;
-    border: 0px solid;
+.tc {
+    font-family: arial;
+    background-image: url(http://www.freevectors.net/files/large/AbstractOrangeBackgroundVector.jpg);
+    background-image: repeat;
 }
 
-header {
-  	text-align: center;
-  	background-color: #7a1300;
-  	margin-top: 0px;
+.pbc {
+    padding: 10px;
+    background-color: red;
+    font-weight: bold;
 }
 
-nav {
-	padding: 0;
-	margin: 0;
+.ef {
+    background-color: blue;
+    padding: 20px;
+    text-align: center;
 }
 
-a {
-	color: #cc9900;
+nav a {
+    color: orange;
 }
 
-li {
-	list-style-type: none;
+ul li {
+    color: purple;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
 }
 
-h2 {
-	text-align: center;
+h2 p {
+    font-size: 16px;
 }
 
-section {
-	text-align: center;
-	list-style-type: none;
+.dropdown {
+    display: none;
 }
 
-footer {
-	background-color: #7a1300;
-	color: #cc9900;
-  	position: absolute;
-  	right: 0;
-  	bottom: 0;
-  	left: 0;
-  	padding: 1rem;
-  	text-align: center;
+#outernav {
+    display: inline-block;
 }
